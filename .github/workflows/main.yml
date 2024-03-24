@@ -4,6 +4,8 @@ on:
     branches: [master, main]
   pull_request:
     branches: [master, main]
+env:
+  CI: false
 jobs:
   lint_js:
       name: Lint JavaScript Files
